@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela</title>
 </head>
 <body>
+    <style>
+        table,td,th,tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+ }
+    </style>
+]</head>
+</body>
+
+<body>
+<table>
+    <h1>Tabelas</h1>
+
+    <h2>Tabela Simples</h2>
+
+    <tr> 
+      <th>id-telefone</th>
+      <th>id_aluno</th>
+      <th>tipo</th>
+      <th>número</th>
+    </tr>
     
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>casa</td>
+        <td>9887766</td>
+    </tr>
+
+     <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>celular</td>
+        <td>9887766</td>
+    </table>
+
+<h2>Mesclagem de Linhas</h2>
+
+        <table>
+            <tr> 
+                <td>linguagem</td>
+                <td>Framework</td>
+            </tr>
+            <tr>
+                <td rowspan="2">python</td>
+                <td>flask</td>
+             </tr>
+
+            <tr> 
+               <td>fastAPI</td>
+            </tr> 
+
+            <tr> 
+                <td rowspan="2">JavaScript</td>
+                <td>Express</td>
+            </tr>
+
+            <tr> 
+                <td>angular</td>
+            </tr>
+        
+        </table>
+
+    <table>
+        <tr> 
+          <th>id-telefone</th>
+          <tr>id_aluno</tr>
+          <tr>tipo</tr>
+          <tr>número</tr>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td colspan="2">casa</td>
+            <td>9887766</td>
+        </tr>
+    
+         <tr>
+            <td>2</td>
+            <td>1</td>
+            <td colspan="2">celular</td>
+            <td>9887766</td>
+        </tr>
+    
+
+</table>
+
+
 </body>
 </html>
