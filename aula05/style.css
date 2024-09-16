@@ -1,22 +1,48 @@
  header{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #ffebc4;
+    
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.intro{
+    border: solid 15px #ffc34b;
+    background-color: #ffebc4;
+    margin: 5%;
+    padding: 2%;
+    border-style: groove;
+}
 main{
-    background-color: rgba(255, 207, 152, 0.921);
+    background-color:rgb(255, 255, 255);
     color: black;
 }
 
 nav a{
-    color: rgb(0, 0, 0);
+    color: rgb(248, 110, 19);
 }
 
 article{
-    border: solid 5px #ffc44f;
-    margin-bottom: 20px;
-    padding: 5%;
-    padding-inline-start: 5%;
+    border: solid 10px #ffc44f;
+    background-color: #ffebc4;
+    margin: 10%;
+    padding: 50px;
     border-style: groove;
+    border-style: double;
+}
+
+footer{
+    background-color: #ffebc4;
+    margin: 5px;
+    padding: 2px;
 }
 
