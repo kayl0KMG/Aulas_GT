@@ -35,8 +35,8 @@ article{
     border: solid 10px #ffc44f;
     background-color: #ffebc4;
     margin: 10%;
-    padding: 50px;
-    border-style: groove;
+    padding: 20px;
+    border-style:groove;
     border-style: double;
 }
 
@@ -45,4 +45,42 @@ footer{
     margin: 5px;
     padding: 2px;
 }
+
+main h2{
+    text-align: center;
+}
+
+@media (max-width:820px) and (orientation:portrait){
+    body{
+    background-color: #ffae5c;
+    }
+    article{
+    border: solid 10px #ffc44f;
+    background-color: #ffebc4;
+    margin: 10%;
+    padding: 20px;
+    border-style:groove;
+    border-style: double;
+    }
+    
+}
+
+@media (min-width:600px){
+
+
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:992px){
+    
+}
+
+@media (min-width:1200px){
+    
+}
+
+
 

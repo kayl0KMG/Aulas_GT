@@ -36,9 +36,9 @@ header{
 }
 
 .logo{
-    font-size: 1.8rem;
-    letter-spacing: 0.4rem;
     cursor: pointer;
+    width: 40px;
+    height: 40px
 }
 
 .menu .lista-menu{
@@ -107,3 +107,38 @@ footer{
     padding: 12px;
 }
 
+.footer-form, .footer-contact {
+    flex: 1;
+    margin: 0 100px;
+}
+
+.footer-form-h3, .footer-contact-h3 {
+    margin-bottom: 10px;
+}
+
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form label{
+    margin-bottom: 5px;
+}
+
+.footer-form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+.footer-form button{
+    padding: 10px;
+    font-size: 1.4rem;
+    background-color: rgb(218, 95, 95);
+    border: none;
+    cursor: pointer;
+}
+
+.footer-contact p{
+    margin-bottom: 4px;
+}
