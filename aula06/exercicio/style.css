@@ -37,8 +37,8 @@ header{
 
 .logo{
     cursor: pointer;
-    width: 40px;
-    height: 40px
+    width: 70px;
+    height: 80px
 }
 
 .menu .lista-menu{
@@ -74,8 +74,9 @@ header{
 }
 
 main{
-    height: 80vh;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -88,10 +89,50 @@ main{
     align-items: center;
     color: aliceblue;
     font-size: 20px;
+
+}
+
+.container-cards{
+    display: flex;  
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 400px;
+    align-items: center;
+
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.sub-container h3{
+    font-size: 20px;
+    margin: 15px 0;
+    color:aqua
+}
+
+.sub-container button{
+    background-color: blue;
+    color: aliceblue;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.sub-container button:hover{
+    background-color: cadetblue;
 }
 
 footer{
-    background-color: rgb(94, 18, 18);
+    background-color: rgb(94, 18, 18);;
     color: aliceblue;
     padding: 20px 0;
     font-size: 1.6rem;
@@ -140,5 +181,6 @@ footer{
 }
 
 .footer-contact p{
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
+

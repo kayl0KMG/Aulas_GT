@@ -12,7 +12,7 @@
     }
 
     main {
-        margin: center; /* Ajusta a margem do conteúdo principal */
+        margin: 20px; /* Ajusta a margem do conteúdo principal */
     }
 
     header {
@@ -32,7 +32,7 @@
     }
 
     li {
-        display:inline-block; /* Exibe os itens da lista na mesma linha */
+        display:inline; /* Exibe os itens da lista na mesma linha */
         margin-right: 20px; /* Adiciona margem à direita entre os itens */
         font-size:medium;
     }
@@ -40,6 +40,10 @@
     a:link {
         color: #ffffff; /* Altera a cor dos links para tom de verde claro */
         text-decoration: none;
+    }
+
+    img{
+        display: none;
     }
 
     div{
@@ -51,12 +55,12 @@
         background-color: #009933;
         color: #ffffff;
         padding: 20px;/*espaçamento interno*/
-        align-items: center;/*alinhamento de texto*/
+        text-align: center;/*alinhamento de texto*/
     }
 }
 
 /* Para telas com tamanho mínimo de 768px ou maiores (desktop) */
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     body {
         background-color: white;
     }
@@ -93,7 +97,7 @@
 
     img {
         display: inline; /* Exibe as imagens normalmente */
-        ___________: _________/* Define a largura das imagens 500 em px*/
+        margin: 500px;/* Define a largura das imagens 500 em px*/
     }
 
     div {
@@ -106,14 +110,14 @@
     }
 
    /* estilização apenas para os parágrafos "filhos" de divs*/
-    ___ ___{
+    div p{
         text-align: left;
     }
 
     footer{
         background-color: rgb(28, 28, 127);
        /* espaçamento interno*/
-       _____________ : 20px;
+       padding: 20px;
         text-align: center;
         color:aliceblue;
     }
