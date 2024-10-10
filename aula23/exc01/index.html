@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento JS</title>
+</head>
+<body>
+
+    <!-- <div class="container">
+        <div class="card">
+            <h1>
+                Informações do CEP
+            </h1>
+
+            <form>
+                <div class="mb-3">
+                  <label for="CEP" class="form-label">CEP</label>
+                  <input type="adress" class="form-control" id="CEP" aria-describedby="CEP">
+                  <div id="CEP" class="form-label">Digite o CEP</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="Logradouro" class="form-label">Logradouro</label>
+                  <input type="Logradouro" class="form-control" id="Logradouro">
+                  <div id="Logradouro" class="form-text">Digite o Logradouro</div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <label class="form-check-label" for="Número">Número</label>
+                  <input type="Número" class="form-check-input" id="Número">
+                  <div id="Número" class="form-text">Digite o Número</div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <label class="form-check-label" for="Número">Número</label>
+                  <input type="Número" class="form-check-input" id="Número">
+                  <div id="Número" class="form-text">Digite o Número</div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <label class="form-check-label" for="Número">Número</label>
+                  <input type="Número" class="form-check-input" id="Número">
+                  <div id="Número" class="form-text">Digite o Número</div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <label class="form-check-label" for="Número">Número</label>
+                  <input type="Número" class="form-check-input" id="Número">
+                  <div id="Número" class="form-text">Digite o Número</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+        </div>
+    </div> -->
+
+
+
+
+    <div class="card">
+        <h2>Informações do CEP</h2>
+        <form>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" placeholder="Digite o CEP" onkeyup="busca()" maxlength="8">
+                <small id="cep-error"></small>
+            </div>
+            <div class="form-group">
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" placeholder="Digite o Logradouro">
+            </div>
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="text" id="numero" placeholder="Digite o Número">
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" placeholder="Digite o Bairro">
+            </div>
+            <div class="form-group">
+                <label for="localidade">Localidade:</label>
+                <input type="text" id="localidade" placeholder="Digite a Cidade">
+            </div>
+            <div class="form-group">
+                <label for="uf">UF:</label>
+                <input type="text" id="uf" placeholder="Digite a UF">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
